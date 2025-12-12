@@ -1,3 +1,12 @@
+# Battery
+ro.vendor.battery.capacity=5000
+
+# Charging
+ro.vendor.charging.fast=45
+ro.vendor.charging.wireless=15
+ro.vendor.charging.wireless.powershare=true
+ro.vendor.charging.wireless.powershare.max=4500
+
 # Fingerprint
 ro.vendor.fingerprint.type=udfps
 ro.vendor.fingerprint.sensor_location=720|2350|91
@@ -5,3 +14,9 @@ ro.vendor.fingerprint.force_calibrate=true
 
 # Radio
 ro.radio.noril=no
+
+# S-Pen
+ro.vendor.spen.support=true
+ro.vendor.spen.hovering=true
+ro.vendor.spen.gestures=true
+ro.vendor.spen.ble=true
