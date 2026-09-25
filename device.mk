@@ -53,3 +53,8 @@ $(call inherit-product, device/samsung/sm8550-common/common.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/samsung/dm3q/dm3q-vendor.mk)
+ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
+PRODUCT_ADB_KEYS := vendor/samsung/dm3q/adbkey.pub
+PRODUCT_PACKAGES += \
+    pixelatoms-cpp \
+    libperfmgr
